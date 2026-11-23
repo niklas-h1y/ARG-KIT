@@ -1,29 +1,17 @@
 {
-  "id": "/ARG-KIT-APP/",
+  "id": "/ARG-KIT/",
   "name": "ARG KIT APP",
   "short_name": "ARG KIT",
   "description": "ARG KIT APP",
-  "start_url": "/ARG KIT APP/",
-  "scope": "/ARG-KIT-APP/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#0C0E12",
   "theme_color": "#00E676",
   "icons": [
     {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon.svg",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%230C0E12'/%3E%3Cpath d='M120 256h40v-60h40v120h40V150h40v212h40V200h40v112h32' stroke='%2300E676' stroke-width='28' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
